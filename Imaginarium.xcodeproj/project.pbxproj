@@ -15,6 +15,7 @@
 		A2F193931BF565EC003C47EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F193911BF565EC003C47EF /* LaunchScreen.storyboard */; };
 		A2F1939E1BF565EC003C47EF /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F1939D1BF565EC003C47EF /* ImaginariumTests.m */; };
 		A2F193A91BF565EC003C47EF /* ImaginariumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F193A81BF565EC003C47EF /* ImaginariumUITests.m */; };
+		A2F193B81BF5660C003C47EF /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F193B71BF5660C003C47EF /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A2F193A41BF565EC003C47EF /* ImaginariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F193A81BF565EC003C47EF /* ImaginariumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumUITests.m; sourceTree = "<group>"; };
 		A2F193AA1BF565EC003C47EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F193B61BF5660C003C47EF /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		A2F193B71BF5660C003C47EF /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +104,8 @@
 		A2F193821BF565EC003C47EF /* Imaginarium */ = {
 			isa = PBXGroup;
 			children = (
-				A2F193861BF565EC003C47EF /* AppDelegate.h */,
-				A2F193871BF565EC003C47EF /* AppDelegate.m */,
+				A2F193B61BF5660C003C47EF /* ImageViewController.h */,
+				A2F193B71BF5660C003C47EF /* ImageViewController.m */,
 				A2F193891BF565EC003C47EF /* ViewController.h */,
 				A2F1938A1BF565EC003C47EF /* ViewController.m */,
 				A2F1938C1BF565EC003C47EF /* Main.storyboard */,
@@ -117,6 +120,8 @@
 		A2F193831BF565EC003C47EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2F193861BF565EC003C47EF /* AppDelegate.h */,
+				A2F193871BF565EC003C47EF /* AppDelegate.m */,
 				A2F193841BF565EC003C47EF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -272,6 +277,7 @@
 			files = (
 				A2F1938B1BF565EC003C47EF /* ViewController.m in Sources */,
 				A2F193881BF565EC003C47EF /* AppDelegate.m in Sources */,
+				A2F193B81BF5660C003C47EF /* ImageViewController.m in Sources */,
 				A2F193851BF565EC003C47EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
